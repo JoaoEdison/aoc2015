@@ -1,5 +1,6 @@
-⍝ Cada pedaço de line é executado e armazenado em nums, como um vetor.
-⍝ Cálcula-se o volume do Hexaedro, mais duas vezes as faces menores.
+⍝ Each element of line is interpreted and then they are assigned to nums as an
+⍝ array.
+⍝ Calculates the volume of the hexaedron plus two times the smallest faces.
 input ← ⎕FIO[49] 'input'
 
 ∇Z ← FeetRibbon line

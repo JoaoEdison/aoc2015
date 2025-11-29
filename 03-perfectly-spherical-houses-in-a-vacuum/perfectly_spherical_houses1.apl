@@ -1,5 +1,5 @@
-⍝ Transforma as direcoes em expoentes e eleva i para cada expoente separadamente.
-⍝ Faz um scan somando cada um e arredondando para baixo, para evitar erros de ponto flutuante.
-⍝ Coloca o 0, que eh a posicao inicial, e conta as posicoes unicas.
+⍝ Transoform the directions in exponents and elevates i to each one.
+⍝ Do a Scan with the sum of each rounded down, to avoid floating-point errors.
+⍝ Inserts 0, that is the starting position, and counts the unique positions.
 ≢∪0,⌊+\0J1*¨('>^<v'⍳⍞)-1
 )OFF

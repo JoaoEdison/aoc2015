@@ -1,3 +1,4 @@
-⍝ Cria um vetor booleano do ')' multiplica por -2 e soma 1 a cada posicao. Reduz, somando todas as colunas.
+⍝ Create a boolean mask from ')', multiplies by -2 and sums 1. Then reduce by
+⍝ summation.
 +/1+¯2×')'=⍞
 )OFF

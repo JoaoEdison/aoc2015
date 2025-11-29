@@ -1,11 +1,12 @@
-⍝ O arquivo input é lido com FIO[49], que retorna o arquivo como um vetor de linhas aninhadas.
-⍝ Para cada linha em res, computa a função Sum e faz uma redução por soma.
-⍝ A função Sum separa a linha por 'x', cada pedaço é atribuído a uma variável independente.
-⍝ Para converter para número a string é executada.
-⍝ 'areas' recebe um vetor com as áreas.
-⍝ 'min' recebe a menor área.
-⍝ Cálcula-se a área do Hexaedro de face quadrangular e soma-se aux.
-⍝ Boxing ativa a visualização dos dados no console.
+⍝ File is read by FIO[49], that returns the file as a vector of lines.
+⍝ For each line in input, call SqrFeetWrappingPaper and do a reduce by sum.
+⍝ The SqrFeetWrappingPaper first split the line by the character 'x', each
+⍝   piece is assigned to one variable.
+⍝ To do the cast the string is interpreted.
+⍝ 'areas' get a array with areas.
+⍝ 'min' get smallest area.
+⍝ Calculate the area of the hexahedron with square faces and sum 'min'.
+⍝ Boxing turns on box data visualization in console.
 ⍝]BOXING 8
 input ← ⎕FIO[49] 'input'
 
