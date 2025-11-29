@@ -1,9 +1,8 @@
+#!/usr/bin/env bqn
+Partition‿GetSmallest ← •Import "../base_structures/utils.bqn"
+
+
 input ← •FLines"input"
-
-# From doc.:
-Partition ← ((⊢-˜¬×+`)∘=⊔⊢)
-
-GetSmallest ← {⊏˜⟜(𝕨⊏⍋)𝕩}
 
 GetNums ← {•ParseFloat¨'x' Partition 𝕩}
 

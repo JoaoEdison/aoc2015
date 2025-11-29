@@ -1,3 +1,6 @@
+#!/usr/bin/env bqn
+
+
 input ← ⊑•FLines"input"
 
 opening_mask ← '('=input

@@ -1,7 +1,8 @@
-input ← ⊑•FLines"input"
+#!/usr/bin/env bqn
+⟨Intersection⟩ ← •Import "../base_structures/utils.bqn"
 
-# From doc.:
-Intersection ← ⊣∾∊˜¬⊸/⊢
+
+input ← ⊑•FLines"input"
 
 GetCoordinate ← {
   0‿('>'=𝕩) + ('^'=𝕩)‿0 + 0‿(-'<'=𝕩) + (-'v'=𝕩)‿0
