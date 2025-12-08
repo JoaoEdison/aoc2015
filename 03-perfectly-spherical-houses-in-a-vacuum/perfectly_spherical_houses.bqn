@@ -19,7 +19,4 @@ Part2 ← {
 # Part 1
 •Show ≠⍷ ⟨0‿0⟩ ∾ Delivers input
 # Part 2
-•Show Part2 "^v"
-•Show Part2 "^>v<"
-•Show Part2 "^v^v^v^v^v"
 •Show Part2 input

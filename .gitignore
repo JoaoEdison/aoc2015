@@ -2,3 +2,5 @@ input
 input2
 .apl.history
 *.out
+*.sol
+tests.sh
