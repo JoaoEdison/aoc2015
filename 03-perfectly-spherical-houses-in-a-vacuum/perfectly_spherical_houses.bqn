@@ -1,5 +1,5 @@
 #!/usr/bin/env bqn
-⟨Intersection⟩ ← •Import "../base_structures/utils.bqn"
+⟨Union⟩ ← •Import "../base_structures/utils.bqn"
 
 
 input ← ⊑•FLines"input"
@@ -13,7 +13,7 @@ Delivers ← {+`GetCoordinate¨𝕩}
 Part2 ← {
   robo ← (2|↕≠𝕩)/𝕩
   santa ← (¬2|↕≠𝕩)/𝕩
-  ≠⍷ ⟨0‿0⟩ ∾ (Delivers robo) Intersection (Delivers santa)
+  ≠⍷ ⟨0‿0⟩ ∾ (Delivers robo) Union (Delivers santa)
 }
 
 # Part 1

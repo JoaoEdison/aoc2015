@@ -17,6 +17,19 @@ Range ← {(⍺-1)+⍳⍵-⍺-1}
 ⍝ Returns boolean
 AllEqual ← {∧/⍵=↑⍵}
 
+⍝ A 2d matrix
+⍝ Returns 2d matrix
+∇M← PadMatrix A
+  M ← (2+⍴A)⍴0
+  M[1+⍳1⌷⍴A; 1+⍳2⌷⍴A] ← A
+∇
+
+⍝ If is in first or last columns/lines then ignore.
+⍝ ⍺ 2d matrix
+⍝ ⍵ array
+⍝ Returns array
+RemoveInMargin ← {⍵/⍨~{∨/⍵}¨(⍵=≢⍺)∨1=⍵}
+
 
 ⍝ Mathematical functions:
 
