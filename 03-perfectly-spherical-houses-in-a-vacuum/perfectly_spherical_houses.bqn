@@ -1,5 +1,5 @@
 #!/usr/bin/env bqn
-⟨Union⟩ ← •Import "../base_structures/utils.bqn"
+⟨Union⟩ ← •Import "../base_structures/apl.bqn"
 
 
 input ← ⊑•FLines"input"

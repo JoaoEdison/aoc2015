@@ -1,5 +1,6 @@
 #!/usr/bin/env bqn
-Partition‿GetSmallest ← •Import "../base_structures/utils.bqn"
+⟨Partition⟩ ← •Import "../base_structures/apl.bqn"
+⟨GetSmallest⟩ ← •Import "../base_structures/utils.bqn"
 
 
 input ← •FLines"input"
